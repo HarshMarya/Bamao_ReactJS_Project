@@ -4,6 +4,11 @@ import { FaAngleDown, FaCartShopping, FaAngleUp } from "react-icons/fa6";
 import { FaBookmark, FaBell, FaBars } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import explore from '../assets/Explore.svg'
+import hobbies from '../assets/Hobbies.svg'
+import logo from '../assets/HobbyCue Logo.svg'
+
+
 
 function HeaderSignIn() {
   return (
@@ -13,8 +18,8 @@ function HeaderSignIn() {
           <div className="w-[150px] md:w-[400px]">
             <Link to="/" className="">
               <img
-                src="\src\assets\HobbyCue Logo.svg"
-                alt=""
+                src={logo}
+                alt="logo"
                 
               />
             </Link>
@@ -48,12 +53,12 @@ function HeaderSignIn() {
 
         <div className="hidden lg:flex lg:items-center gap-4 lg:justify-around">
           <div className="flex items-center gap-2 cursor-pointer">
-            <img src="src\assets\Explore.svg" alt="" className="w-[25px]" />
+            <img src={explore} alt="explore-logo" className="w-[25px]" />
             <p>Explore</p>
             <FaAngleDown />
           </div>
           <div className="flex items-center gap-2 cursor-pointer">
-            <img src="src\assets\Hobbies.svg" alt="" className="w-[25px]" />
+            <img src={hobbies} alt="hobbies-logo" className="w-[25px]" />
             <p>Hobbies</p>
             <FaAngleDown />
           </div>

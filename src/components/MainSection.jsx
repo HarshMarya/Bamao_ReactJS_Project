@@ -1,5 +1,7 @@
 import React from 'react'
 import Form from './Form'
+import img1 from '../assets/5793404.svg'
+import img2 from '../assets/5793401.svg'
 
 function MainSection() {
   return (
@@ -24,21 +26,21 @@ function MainSection() {
           </div>
           {/* Explore Bottom Images */}
           <div className="lg:flex mt-10 hidden">
-            <img src="\src\assets\5793404 1.svg" alt="" />
-            <img src="\src\assets\5793401 1.svg" alt="" />
+            <img src={img1} alt="main-image" />
+            <img src={img2} alt="main-image" />
           </div>
         </div>
         <Form />
         {/*Form Bottom Images */}
         <div className="flex lg:hidden mt-10">
           <img
-            src="\src\assets\5793404 1.svg"
-            alt=""
+            src={img1}
+            alt="img1"
             className="w-[160px] sm:w-full"
           />
           <img
-            src="\src\assets\5793401 1.svg"
-            alt=""
+            src={img2}
+            alt="img2"
             className="w-[160px] sm:w-full"
           />
         </div>

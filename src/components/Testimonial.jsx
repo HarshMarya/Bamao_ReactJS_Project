@@ -2,6 +2,7 @@ import React from 'react'
 import { IoIosPlay } from "react-icons/io";
 import { FaMicrophone } from "react-icons/fa";
 import '../App.css'
+import womanImg from '../assets/Ellipse 12.svg'
 
 
 function Testimonial() {
@@ -39,8 +40,8 @@ function Testimonial() {
           <div className="flex justify-between flex-col items-center lg:flex-row-reverse my-4 gap-4">
             <div className="flex justify-center items-center gap-2 md:gap-4 my-2">
               <img
-                src="\src\assets\Ellipse 12.svg"
-                alt=""
+                src={womanImg}
+                alt="woman-image"
                 className="w-[60px] md:w-[100px]"
               />
               <div>
@@ -62,7 +63,7 @@ function Testimonial() {
                 <span className='text-[#8064A2] text-[8px] md:text-[12px] cursor-default'>00:00</span>
               </div>
               <div className='relative'>
-                <img src="src\assets\Ellipse 12.svg" alt="" className='w-[40px] lg:w-[60px]'/>
+                <img src={womanImg} alt="woman-image" className='w-[40px] lg:w-[60px]'/>
                 <FaMicrophone className='absolute bottom-0 text-lg md:text-2xl text-white'/>
               </div>
             </div>

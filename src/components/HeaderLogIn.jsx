@@ -4,6 +4,10 @@ import { FaAngleDown, FaCartShopping, FaAngleUp } from "react-icons/fa6";
 import { FaBookmark, FaBell, FaBars } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import explore from '../assets/Explore.svg'
+import hobbies from '../assets/Hobbies.svg'
+import profileImg from '../assets/Ellipse 23.svg'
+import logo from '../assets/HobbyCue Logo v2 1.svg'
 
 function HeaderLogIn() {
   return (
@@ -12,8 +16,8 @@ function HeaderLogIn() {
           <div>
             <Link to="/" className="">
               <img
-                src="src\assets\HobbyCue Logo v2 1.svg"
-                alt=""
+                src={logo}
+                alt="logo"
                 className="w-[32px] md:w-[60px]"
               />
             </Link>
@@ -47,12 +51,12 @@ function HeaderLogIn() {
 
       <div className="hidden lg:flex lg:items-center gap-6 lg:justify-around">
         <div className="flex items-center gap-2 cursor-pointer">
-          <img src="src\assets\Explore.svg" alt="" className="w-[25px]"/>
+          <img src={explore} alt="explore-logo" className="w-[25px]"/>
           <p>Explore</p>
           <FaAngleDown className="text-[#6D747A]" />
         </div>
         <div className="flex items-center gap-2 cursor-pointer">
-          <img src="src\assets\Hobbies.svg" alt="" className="w-[25px]"/>
+          <img src={hobbies} alt="hobbies-logo" className="w-[25px]"/>
           <p>Hobbies</p>
           <FaAngleDown className="text-[#6D747A]" />
         </div>
@@ -62,7 +66,7 @@ function HeaderLogIn() {
             <FaCartShopping className="text-[#8064A2] text-2xl cursor-pointer"/>
         </div>
         <div className="flex items-center gap-4 cursor-pointer">
-          <img src="src\assets\Ellipse 23.svg" alt="" />
+          <img src={profileImg} alt="profile-image" />
           <FaAngleDown className="text-[#6D747A]"/>
         </div>
 

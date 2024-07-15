@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import GoToTop from "./GoToTop";
+import bottomImg1 from '../assets/F1.svg'
+import bottomImg2 from '../assets/F2.svg'
+import fb from '../assets/facebook_icon 1.svg'
+import yt from '../assets/youtube_icon 1.svg'
+import insta from '../assets/instagram logo_icon 1.svg'
+import tel from '../assets/telegram.svg'
+import mail from '../assets/message_icon 1.svg'
+import gPlus from '../assets/google+_plus_icon 1.svg'
+import x from '../assets/twitter logo_icon 3.svg'
+import pint from '../assets/pinterest logo_icon 1.svg'
 
 function Footer() {
   const [show, setShow] = useState(true);
@@ -23,8 +33,8 @@ function Footer() {
         </div>
 
         <div className="flex justify-between items-center mt-6">
-          <img src="\src\assets\F1.svg" alt=" " className="w-full" />
-          <img src="\src\assets\F2.svg" alt=" " className="w-full" />
+          <img src={bottomImg1} alt="foote-image-1 " className="w-full" />
+          <img src={bottomImg2} alt="footer-image-2 " className="w-full" />
         </div>
       </div>
       {/* Links */}
@@ -120,21 +130,21 @@ function Footer() {
                 <li className="bg-[#EBEDF0] rounded-full w-[25px] h-[25px]">
                   <a href="https://www.facebook.com/" target="_blank"><img
                     className="p-1"
-                    src="\src\assets\facebook_icon 1.svg"
+                    src={fb}
                     alt="social-media-links-icon"
                   /></a>
                 </li>
                 <li className="bg-[#EBEDF0] rounded-full w-[25px] h-[25px]">
                   <a href="https://x.com/?lang=en" target="_blank"><img
                     className="p-1"
-                    src="\src\assets\twitter logo_icon 3.svg"
+                    src={x}
                     alt="social-media-links-icon"
                   /></a>
                 </li>
                 <li className="bg-[#EBEDF0] rounded-full w-[25px] h-[25px]">
                 <a href="https://www.instagram.com/" target="_blank"><img
                     className="p-1"
-                    src="\src\assets\instagram logo_icon 1.svg"
+                    src={insta}
                     alt="social-media-links-icon"
                   /></a>
                 </li>
@@ -142,7 +152,7 @@ function Footer() {
                   <a href="https://in.pinterest.com/" target="_blank">
                   <img
                     className="p-1"
-                    src="\src\assets\pinterest logo_icon 1.svg"
+                    src={pint}
                     alt="social-media-links-icon"
                   />
                   </a>
@@ -151,7 +161,7 @@ function Footer() {
                   <a href="https://www.google.com/" target="_blank">
                   <img
                     className="p-1"
-                    src="\src\assets\google+_plus_icon 1.svg"
+                    src={gPlus}
                     alt="social-media-links-icon"
                   />
                   </a>
@@ -160,7 +170,7 @@ function Footer() {
                   <a href="https://www.youtube.com/" target="_blank">
                   <img
                     className="p-1"
-                    src="\src\assets\youtube_icon 1.svg"
+                    src={yt}
                     alt="social-media-links-icon"
                   />
                   </a>
@@ -169,7 +179,7 @@ function Footer() {
                   <a href="https://telegram.org/" target="_blank">
                   <img
                     className="p-1"
-                    src="\src\assets\telegram.svg"
+                    src={tel}
                     alt="social-media-links-icon"
                   />
                   </a>
@@ -178,7 +188,7 @@ function Footer() {
                   <a href="https://www.google.com/intl/en/gmail/about/" target="_blank">
                   <img
                     className="p-1"
-                    src="\src\assets\message_icon 1.svg"
+                    src={mail}
                     alt="social-media-links-icon"
                   />
                   </a>
