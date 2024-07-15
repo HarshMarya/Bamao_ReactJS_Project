@@ -1,8 +1,11 @@
-# React + Vite
+#Bamao ReactJS Project (Task 1)
+Figma: https://www.figma.com/design/392G67iWd8t6WAWy6wDMPt/Basic-Responsiveness-Task?node-id=1-4235&t=GR9FADEhW1SuEacn-0
+Live: https://bamao-react-js-project-naum.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#How to Run
 
-Currently, two official plugins are available:
+1. Click on code button and download the Zip File.
+2. Open the downloaded file in your VS Code.
+3. In your VS Terminal run this command "git install"
+4. To run the project run command "npm run dev"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
